@@ -1,0 +1,655 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+     --themegreen:#F3FCF7; /*The light theme green color */
+    --activelink:#06C167; /*The dark theme green color */
+}
+
+/*The font-family used */
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/inter/Inter-Regular.eot') format("eot"),
+    url('../fonts/inter/Inter-Regular.svg') format("svg"),
+    url("../fonts/inter/Inter-Regular.ttf") format("ttf"),
+    url('../fonts/inter/Inter-Regular.woff') format("woff"),
+    url('../fonts/inter/Inter-Regular.woff2') format("woff2");
+}
+
+/*The start of header properties */
+header{
+height: 41px;
+width: 1177px;
+position: absolute;
+left: 135px;
+top: 28px;
+display: flex;
+align-items: center;
+}
+
+header span{
+    position: absolute;
+    left: 0;
+}
+
+header span img{
+    height: 30px;
+    width: 120px;
+}
+
+header nav{
+    position: absolute;
+    left: 550px;
+}
+
+header nav > a{
+    padding: 23px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+header nav > a:hover{
+    color:var(--activelink);
+}
+
+header nav > a:hover::after{
+    content: "•"; 
+    position: absolute;
+    bottom: -15px;
+    left: 40px;
+}
+
+/*The end of header properties */
+
+/*The start of section 1 properties */
+.sec1{
+    width: 1440px;
+    height: 663px;
+    background:var(--themegreen);
+    left: 0%;
+    right: 0%;
+    top: -0.25%;
+    bottom: 88.31%;
+}
+
+.sec1 h1{
+    position: absolute;
+    height: 182px;
+    width: 533px;
+    left: 135px;
+    top: 195px;
+    font-family: Inter;
+    font-size: 75px;
+    font-weight: 600;
+    line-height: 91px;
+}
+
+.sec1 p{
+    position: absolute;
+    height: 46px;
+    width: 533px;
+    left: 135px;
+    top: 378px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #1D1D1FBF;
+}
+
+.sec1 a{
+    position: absolute;
+    height: 68px;
+    width: 200px;
+    left: 135px;
+    top: 440px;
+    text-decoration: none;
+    color: white;
+    background-color: var(--activelink);
+    text-align: center;
+    padding-top: 25px;
+    box-sizing: border-box;
+}
+
+#bigimg{
+    position: absolute;
+    height: 634px;
+    width: 468px;
+    left: 750px;
+    top: 147px;
+}
+
+#ratings{
+    position: absolute;
+    left: 660px;
+    top:420px;
+}
+
+#quality{
+    position: absolute;
+    left: 1028px;
+    top: 350px;
+}
+
+#polcadot{
+    position: absolute;
+    height: 174px;
+    width: 174px;
+    left: 1080px;
+    top: 625px;   
+}
+
+/*The end of section 1 properties */
+
+/*The start of direct span of main properties */
+main > span{
+position: absolute;
+left: 135px;
+top: 700px;
+}
+
+/*The start of section 2 properties */
+.sec2{
+    position: absolute;
+    top: 900px;
+    display: flex; 
+    width: 1170px;
+    height: 185px;
+    left: 120px;
+    right: 120px;
+}
+
+.chunk{
+    width:1170px;
+    flex-direction: column;
+}
+
+.text-area{
+    width:209px;
+}
+
+.chunk img{
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin: 5px;
+}
+
+.large-font{
+    width:117px;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+.small-font{
+    font-family: 'Inter';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+}
+
+.chunk,.large-font,.small-font{
+    padding: 20px;
+}
+ /* The partitions shaded lines */
+.line1{
+    position:absolute;
+    top:860px;
+    left: 90px;
+}
+
+.line2{
+    position:absolute;
+    top:1010px;
+    left: 90px;
+}
+
+/*The end of header properties */
+
+/*The start of section 3 properties */
+.sec3{
+    position: absolute;
+    top:1100px;
+    left:135px;
+    width: 1162px;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+.sec3 div{
+    width: 541px;
+}
+
+.sec3 li{
+    list-style-image: url("../images/Icon\ awesome-check.png");
+    padding: 10px 0px;
+    margin: 0px 40px;
+}
+
+.div3-text{
+    padding: 30px;
+    margin: 30px;
+}
+
+.div3-text span{
+    font-family: 'Inter';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.div3-text h1{
+    padding: 30px 0px;
+    width:537px;
+    font-family: 'Inter';
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 73px;
+}
+/*The ends of section 3 properties */
+
+/*The start of section 4 properties */
+.sec4{
+    width: 1230px;
+    display: flex;
+    position: absolute;
+    top:1800px;
+    left: 75px;
+}
+
+.sec4-text{
+    padding: 25px;
+    margin:25px;
+}
+
+.sec4-text > span{
+    height: 18px;
+    width: 68px;
+    font-family: 'Inter';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.sec4-text h1{
+    height: 146px;
+    width: 570px;
+    font-family: 'Inter';
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 73px;
+    padding-top: 25px;
+}
+
+.box{
+    padding: 10px;
+    display: flex; 
+    justify-content: space-between; 
+}
+
+.box > div{
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box-large-text{
+    width: 40px;
+    font-family: 'Inter';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    color: #06C167;
+}
+
+.box-small-text{
+    padding-top: 8px;
+    width:92px;
+    font-family: 'Inter';
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    color: black;
+}
+
+.sec4-text a{
+    position: absolute;
+    height: 68px;
+    width: 200px;
+    text-decoration: none;
+    color: white;
+    background-color: var(--activelink);
+    text-align: center;
+    padding-top: 25px;
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+/*The end of section 4 properties */
+
+/*The start of section 5 properties */
+.sec5{
+    position: absolute;
+    width: 1170px;
+    height: 766px;
+    left: 100px;
+    top: 2500px;
+}
+
+.sec5-textarea{
+    padding: 10px;
+    margin: 10px;
+}
+
+.sec5-textarea > span{
+    display: flex;
+    font-family: 'Inter;';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    justify-content: center;
+}
+    
+    .sec5-textarea h1{
+    display: flex;
+    font-family: 'Inter';
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 73px;
+    justify-content: center;
+    text-shadow: rgb(26, 25, 25) 1px 0 5px;
+    }
+
+.octate-flex{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--themegreen);
+    border: 1px solid var(--activelink);
+}
+
+.octate-flex > div{
+    width: 290px;
+    display: flex;
+    justify-content: center;
+}
+
+.octate-flex h1, .octate-flex p, .octate-flex a{
+    padding: 20px;
+    width: 227px;
+}
+
+.octate-flex h1{
+    font-family: 'Inter';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 39px;
+}
+
+.octate-flex p{
+    font-family: 'Inter';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.octate-flex a{
+    font-family: 'Inter';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    color: var(--activelink);
+}
+/*The end of section 5 properties */
+
+/*The start of section 6 properties */
+.sec6{
+    width: 1170px;
+    height:619px;
+    position: absolute;
+    top: 3300px;
+    left: 100px;
+}
+
+.sec6-flexdiv{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+} 
+
+.sec6-flexdiv div{
+    padding: 30px;
+    display: flex;
+    width: 270px;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 1px 5px grey ;
+    margin: 10px;
+}
+
+.sec6-flexdiv div img{
+    padding: 5px;
+}
+
+.sec6-flexdiv div span{
+    padding: 10px;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.sec6-flexdiv div p{
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 10px;
+    color: var(--activelink);
+}
+
+.text-cut{
+    color: #767675;
+}
+
+.sec6-flexdiv div a{
+    display: flex;
+    padding: 15px;
+    margin:10px;
+    color: var(--activelink);
+    background-color: white;
+    border: 1px solid var(--activelink);
+    text-decoration: none;
+    align-content: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.sec6-text-area > span{
+    height: 18px;
+    width: 87px;
+    left: 100px;
+    font-family: 'Inter';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.sec6-text-area > h1{
+    height: 73px;
+    width: 622px;
+    left: 100px;
+    top: 3807px;
+    font-family: 'Inter';
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 73px;
+}
+
+/*The ends of section properties */
+
+/* The center below image properties */
+.lastimage{
+display: flex;
+position: absolute;
+height: 459px;
+width: 1170px;
+left: 100px;
+top: 4000px;
+background: linear-gradient(0deg, rgba(2, 2, 2, 0.59), rgba(2, 2, 2, 0.59)), url('../images/Rectangle8.png');
+border: 1px solid #000000;
+box-sizing: border-box;
+flex-direction: column;
+text-align: center;
+justify-content: center;
+box-shadow:1px 1px 5px black;
+}
+
+.lastimage > span{
+    padding: 120px;
+}
+
+.lastimage h1{
+    font-family: 'Inter';
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 73px;
+    padding: 50px;
+    color: white;
+}
+
+.lastimage a{
+    padding: 30px;
+    color: white;
+    height: 79px;
+    width: 210px;
+    background-color: var(--activelink);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    text-decoration: none;
+}
+/*The end of bottom bg-image properties*/
+
+/*The start of section 7 properties, aka, the footer */
+.sec7{
+display: flex;
+position: absolute;
+height: 450px;
+width: 1440px;
+top: 4400px;
+padding: 100px;
+}
+
+.sec7 div{
+    width:300px;
+}
+
+.sec7 > div > a{
+    display: block;
+    text-decoration: none;
+    padding-top: 20px;
+    color: black;
+}
+
+.social-media > a{
+    padding-right: 10px;
+    margin-top: 20px;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.social-media{
+    padding-top: 70px;
+}
+
+.sec7 div h1{
+    padding-bottom: 20px;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29px;
+}
+
+.sec7 div p{
+    padding-top: 35px;
+    width:284px;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.input-field{
+    font-family: 'Inter';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    text-decoration: none;
+    padding-top:50px;
+}
+
+.input-field a{
+    text-decoration: none;
+    color: white;
+}
+
+#subs{
+    padding: 10px;
+    
+    background-color: var(--activelink);
+}
+
+#endcredits{
+    height: 19px;
+    width: 250px;
+    left: 550px;
+    top: 4800px;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+}
+
+/*The ends of section 7, footer*/
